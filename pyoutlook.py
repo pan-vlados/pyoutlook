@@ -1,4 +1,3 @@
-```python
 # -*- coding: utf-8 -*-
 from __future__ import annotations  # allow annotations when class not defined
 
@@ -242,4 +241,3 @@ class Mail():  # TODO: description
             for recipient in self.COMObject.Recipients
             if self.check_valid_mail_address(recipient)
             ]
-```
